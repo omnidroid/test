@@ -13,3 +13,9 @@ Hello World 项目是一个用 C 语言开发的演示项目，主要用于版�
    使用 Subversion 作为下游版本库维护代码，采用的方法称为卖主分支。即使用一个分支专门用于镜像上游版本库的代码，在主线维护包含定制的代码。
  * '''Hg + MQ''': 
    使用 Mercurial(Hg) 以及 Hg 内置的 MQ 插件来维护下游版本库，是一种更为有效的方法。尤其是对上游的定制相当的多和复杂的情况，可以大大减少由于上游版本频繁升级带来的维护负担。这种方法实际上维护的是一系列补丁文件，这些补丁文件使用的是 [[http://savannah.nongnu.org/projects/quilt|quilt]] 格式。
+
+----
+hello world
+
+----
+elastigirl here
